@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*  font-family: 'Nunito', sans-serif; font-family: 'Rubik', sans-serif; */
+
+/* Main css start  */
+/* top-header  */
+.top-header {
+  background: #273c66;
+}
+
+.w-color {
+  color: #fff;
+}
+
+.top-header-left ul li,
+.top-header-right ul li {
+  display: inline-block;
+  color: #fff;
+}
+
+.top-header-left ul li a,
+.top-header-right ul li a {
+  color: #fff;
+}
+
+.top-header-left li:first-child {
+  padding-right: 26px;
+  border-right: 1px solid #374a71;
+  padding: 16px;
+}
+
+.top-header-left li:last-child {
+  padding-left: 15px;
+}
+
+.top-header-right ul li:first-child {
+  padding-right: 20px;
+}
+
+.top-header-right ul li i {
+  color: #21a7d0;
+}
+
+.top-header-left ul li i,
+.top-header-right ul li i {
+  padding-right: 4px;
+  font-weight: 600;
+}
+
+.top-header-wrap a:hover {
+  color: #21a7d0;
+}
+
+.logo img {
+  width: 210px;
+}
+
+.logo-and-categories {
+  flex-basis: 450px;
+  margin-right: 100px;
+  padding: 0 15px;
+}
+.catagories-btn button {
+  outline: none;
+  border: none;
+  font-family: "rubik", sans-serif;
+  /*! font-weight: 400; */
+  font-size: 18px;
+  background: Transparent;
+}
+
+.catagories-btn button:hover {
+  cursor: pointer;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  margin-right: 33px;
+}
+
+.main-nav ul li a {
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 120px;
+  position: relative;
+}
+
+.main-nav ul li a:hover {
+  color: #21a7d0;
+}
+
+.main-nav ul li a::after {
+  position: absolute;
+  content: "+";
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 3px;
+  transition: 0.5s;
+}
+
+.main-nav ul li a:hover::after {
+  content: "-";
+}
+
+.main-header-wrapper.df-space-between {
+  justify-content: normal;
+}
+
+.catagories-btn button i {
+  padding-right: 3px;
+  color: #444;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.catagories-btn button:hover i {
+  color: #21a7d0;
+}
+
+.main-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main-nav {
+  width: 560px;
+}
+.main-heder-rignt ul li {
+  display: inline-block;
+}
+.main-heder-rignt ul li:first-child {
+  border-right: 1px solid #a4a4a4;
+  padding: 3px 20px 3px 0px;
+}
+
+.main-heder-rignt ul li:nth-child(2) {
+  padding: 0 21px;
+}
+
+.main-heder-rignt ul li a i {
+  color: #333;
+  font-size: 16px;
+}
+
+.sub-menu {
+  position: absolute;
+  left: 0;
+  width: 251px;
+  background: #21a7d0;
+  border-radius: 3px;
+}
+.about-sub-menu {
+  position: relative;
+  transition: 0.5s;
+}
+
+.sub-menu {
+  display: none;
+  transform: scaleY(0.1);
+  transform-origin: top;
+  opacity: 0;
+}
+
+.about-sub-menu:hover .sub-menu {
+  display: block;
+  transform: scaleY(1);
+  transform-origin: top;
+  opacity: 1;
+}
+
+.sub-menu li {
+  display: block !important;
+  margin-right: 0 !important;
+  margin-left: 30px;
+}
+
+.sub-menu li a {
+  text-transform: capitalize;
+  color: white !important;
+}
+
+.sub-menu li a {
+  line-height: 0 !important;
+}
+.sub-menu li {
+  padding: 30px 0;
+}
+
+/* slider start  */
+
+.slider-img img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.slider{
+  max-height: 645px;
+  max-width: 100%;
+}
+
+.slider:hover .slick-prev{
+  left: 60px;
+  opacity: 1;
+}
+
+.slider:hover .slick-next{
+  right: 60px;
+  opacity: 1;
+}
+
+.slider-inner .wrapper .container{
+  width: 100%;
+  padding: 0 30px !important;
+}
+
+.slider-inner .wrapper{
+display: flex;
+justify-content: left;
+align-items: center;
+height: 100%;
+text-align: left;
+margin: 0;
+padding: 0;
+width: 100%;
+position: relative;
+}
+
+.slider-content {
+  position: relative;
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+  height: 654px;
+}
+.slider-img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.slider-content h2 {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+
+.slider-content h1 {
+  color: #ffffff;
+  font-size: 90px;
+  line-height: 75px;
+  margin-bottom: 25px;
+}
+
+.slider-content .slider-inner .slider-btn button {
+  color: #fff;
+  font-size: 14px !important;
+  background: #21a7d0;
+  border: none;
+  padding: 20px 40px !important;
+  border-radius: 4px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.slider-content .slider-inner .slider-btn button:hover {
+  background: #1e8eb0;
+}
+
+/* slider end */
+
+
+.single-box {
+  position: relative;
+  flex: 0 0 25%;
+  max-height: 25%;
+ 
+}
+.service-wrap .single-box .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+.service-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.service-wrap .single-box .title h2 {
+  color: #ffff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.single-box::before {
+  content: "";
+  position: absolute;
+  background:#273c66dd;
+  width: 100%;
+  height: 100%;
+}
+
+.s-box-overlay2::before {
+  background: #21a7d0c7;
+}
+.s-box-overlay4::before {
+  background: #21a7d0c7;
+}
+
+.s-box-overlay3::before {
+  background: #772beacf;
+}
+
+.title img {
+  margin-bottom: 10px;
+}
+
+.service-image img {
+  max-width: 100%;
+}
+
+/* About-Educavo start */
+
+#About-Educavo {
+  padding: 70px 0;
+}
+.About-Educavo-wrapper .left p {
+  margin-bottom: 25px;
+}
+.left {
+  background:url(../../images/Educavo/about-intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  border-radius: 3px;
+
+}
+
+
+#About-Educavo-wrapper {
+  display: flex;
+}
+.About-Educavo-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.educavo-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.educavo-img img{
+  width: 100%;
+  border-radius: 3px;
+}
+
+ .educavo-img .img-1{
+  flex-basis: 47%;
+}
+.educavo-img .img-2{
+  flex-basis: 47%;
+}
+
+.left {
+  flex-basis: 37%;
+}
+.right {
+  flex-basis: 58%;
+}
+.wrap-item h2,h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  background:#fbf8cc;
+  text-align: center;
+  vertical-align: middle;
+  padding: 50px;
+  margin-bottom: 35px;
+  font-family: Rubik;
+  font-weight: 900;
+  border-radius:3px;
+  line-height:30px ;
+}
+
+.item h2{
+  font-size: 20px;
+}
+
+.item h4{
+  font-size: 15px;
+}
+
+.item-one{
+  flex-basis: 30%;
+}
+
+.item-two {
+  background: #e9fbd5;
+  flex-basis: 30%;
+}
+.item-three {
+  background: #dcf1fd;
+  flex-basis: 30%;
+}
+
+
+.About-Educavo-wrapper .left {
+  padding: 110px 100px 80px 100px;
+}
+.About-Educavo-wrapper .left h4 {
+  margin-bottom: 14px;
+  color: #21a7d0;
+  text-transform: uppercase;
+}
+.About-Educavo-wrapper .left h2 {
+font-size: 26px;
+line-height: 30px;
+}
+.About-Educavo-wrapper .left p {
+font-size: 18px;
+text-justify:inter-word;
+}
+
+.About-Educavo-wrapper .left button{
+  color: #ffffff;
+  font-weight: 700;
+}
+/*===== About-Educavo end =====*/

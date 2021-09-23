@@ -1,0 +1,135 @@
+/* =========start blog page========= */
+/* ---------blog page hero image---------*/
+  .top-post .elementor-post__text {
+    background-color: #000;
+    z-index: 99;
+    background:#DAE5EB;
+    padding: 30px!important;
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: calc(100% - 60px);
+  }
+  .elementor-post__meta-data{
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  /* -------------Categories(Browse by category)---------- */
+  .elementor-widget-container h5 {
+    display: none;
+}
+
+.cat-item {
+     width: calc((80% / 2) - 20px);
+     list-style: none;
+    padding: 6px 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.elementor-widget-container ul li{
+        float: left;
+        transition: .5s;
+}
+
+.elementor-widget-container ul li.cat-item:nth-child(odd) {
+    margin-right: 15px;
+}
+
+.elementor-widget-container ul li.cat-item:nth-child(even) {
+    margin-left: 15px;
+}
+
+.cat-item a{
+    padding-left: 15px;
+    position: relative;   
+}
+
+.cat-item a:after{
+   content: "\203a";
+   float: right;
+   left: 160px;
+   top:-20px ;
+   position: absolute;
+   font-weight:400;
+   font-size: 35px;
+}
+
+.cat-item:nth-child(odd) {
+  border: 2px solid #f74522;
+  
+}
+.cat-item a:nth-child(odd) {
+  color: #000;
+}
+
+.cat-item:nth-child(even) {
+ border: 2px solid blue;
+}
+.elementor-widget-container ul li.cat-item:hover {
+    background: #ABB2B9;
+    border: 2px solid #000;
+}
+
+/* ----------top posts--------- */
+.elementor img{
+  border-radius: 20px
+}
+
+.content{
+  border-radius: 20px;
+}
+
+.post-carousel-wrapper .htmega-postslider-layout-2 .content .post-inner{
+  background: none;
+}
+
+/* ---------recent posts/blog page----------- */
+.elementor-posts .elementor-post__read-more{
+  background: #1CA7EC;
+  padding: 10px 15px;
+}
+
+.elementor-posts .elementor-post__read-more:hover{
+  background: #289237; 
+}
+
+/* ============start categories page========== */
+
+/* ---------recent articles/categories page----------- */
+
+.elementor img{
+  border-radius: 20px
+}
+
+.content{
+  border-radius: 20px;
+}
+
+.post-carousel-wrapper .htmega-postslider-layout-2 .content .post-inner{
+  background: none;
+}
+
+/* ---------recent post/categories page----------- */
+.elementor-posts .elementor-post__read-more{
+  background: #1CA7EC;
+  padding: 10px 15px;
+}
+
+.elementor-posts .elementor-post__read-more:hover{
+  background: #289237;
+}
+
+/* ============single post page========== */
+/* ---------recent post/single post page----------- */
+.elementor-posts .elementor-post__read-more{
+  background: #1CA7EC;
+  padding: 10px 15px;
+}
+
+.elementor-posts .elementor-post__read-more:hover{
+  background: #289237;
+}

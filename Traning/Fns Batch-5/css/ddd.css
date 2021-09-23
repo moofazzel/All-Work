@@ -1,0 +1,19 @@
+.topbarWrapper{
+  display: flex;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+.topBar{
+  background: rgb(246, 206, 206);
+  padding: 10px 0;
+}
+
